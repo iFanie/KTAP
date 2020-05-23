@@ -1,0 +1,14 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+
+sourceCompatibility = ktap.dependencies.JAVA
+targetCompatibility = ktap.dependencies.JAVA
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:${ktap.dependencies.KOTLIN}"
+    implementation "org.jetbrains.kotlin:kotlin-reflect:${ktap.dependencies.KOTLIN}"
+    testImplementation "org.junit.jupiter:junit-jupiter:${ktap.dependencies.JUNIT}"
+}
+
+

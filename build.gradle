@@ -1,0 +1,33 @@
+buildscript {
+    ext {
+        ktap = [
+                dependencies: [
+                        GRADLE: '3.6.3',
+                        KOTLIN: '1.3.72',
+                        JAVA  : '8',
+                        JUNIT : '5.6.2'
+                ]
+        ]
+    }
+
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath "com.android.tools.build:gradle:${ktap.dependencies.GRADLE}"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${ktap.dependencies.KOTLIN}"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
