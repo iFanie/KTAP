@@ -1,0 +1,3 @@
+rootProject.name='KTAP'
+include ':app'
+include ':ktap'
