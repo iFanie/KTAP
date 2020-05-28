@@ -310,7 +310,7 @@ internal fun packageElement(
     override fun getEnclosedElements(): List<Element> = enclosedElements!!
 }
 
-private fun <A : Annotation> tryToFind(needle: Class<A>, haystack: List<KClass<out Annotation>>): A? {
+internal fun <A : Annotation> tryToFind(needle: Class<A>, haystack: List<KClass<out Annotation>>): A? {
     for (possibleNeedle in haystack) {
         if (needle.isAssignableFrom(possibleNeedle.java)) {
             return annotation(needle.kotlin)
