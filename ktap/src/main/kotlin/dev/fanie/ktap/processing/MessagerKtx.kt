@@ -1,4 +1,4 @@
-package dev.fanie.ktap
+package dev.fanie.ktap.processing
 
 import javax.annotation.processing.Messager
 import javax.lang.model.element.AnnotationMirror

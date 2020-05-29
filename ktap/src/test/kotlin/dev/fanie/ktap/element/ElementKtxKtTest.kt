@@ -1,7 +1,8 @@
-package dev.fanie.ktap
+package dev.fanie.ktap.element
 
-import dev.fanie.ktap.util.executableElement
-import dev.fanie.ktap.util.variableElement
+import dev.fanie.ktap.element.isOptional
+import dev.fanie.ktap.fake.executableElement
+import dev.fanie.ktap.fake.variableElement
 import org.jetbrains.annotations.NotNull
 import org.junit.jupiter.api.Assertions.assertFalse
 import org.junit.jupiter.api.Assertions.assertTrue

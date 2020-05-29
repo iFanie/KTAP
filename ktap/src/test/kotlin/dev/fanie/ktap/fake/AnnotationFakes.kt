@@ -1,4 +1,4 @@
-package dev.fanie.ktap.util
+package dev.fanie.ktap.fake
 
 import java.lang.reflect.Proxy
 import javax.lang.model.element.AnnotationMirror

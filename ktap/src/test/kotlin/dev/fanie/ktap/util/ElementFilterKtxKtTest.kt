@@ -1,11 +1,11 @@
-package dev.fanie.ktap
+package dev.fanie.ktap.util
 
-import dev.fanie.ktap.util.asName
-import dev.fanie.ktap.util.constructorElement
-import dev.fanie.ktap.util.fieldElement
-import dev.fanie.ktap.util.methodElement
-import dev.fanie.ktap.util.packageElement
-import dev.fanie.ktap.util.typeElement
+import dev.fanie.ktap.fake.asName
+import dev.fanie.ktap.fake.constructorElement
+import dev.fanie.ktap.fake.fieldElement
+import dev.fanie.ktap.fake.methodElement
+import dev.fanie.ktap.fake.packageElement
+import dev.fanie.ktap.fake.typeElement
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import javax.lang.model.element.ElementKind

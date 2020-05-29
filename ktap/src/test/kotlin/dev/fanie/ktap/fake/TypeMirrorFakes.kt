@@ -1,4 +1,4 @@
-package dev.fanie.ktap.util
+package dev.fanie.ktap.fake
 
 import javax.lang.model.element.AnnotationMirror
 import javax.lang.model.type.TypeKind

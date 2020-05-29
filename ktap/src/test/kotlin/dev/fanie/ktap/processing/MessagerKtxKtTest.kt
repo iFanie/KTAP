@@ -1,11 +1,15 @@
-package dev.fanie.ktap
+package dev.fanie.ktap.processing
 
-import dev.fanie.ktap.util.MessagerPrint
-import dev.fanie.ktap.util.MessagerState
-import dev.fanie.ktap.util.annotationMirror
-import dev.fanie.ktap.util.annotationValue
-import dev.fanie.ktap.util.element
-import dev.fanie.ktap.util.messager
+import dev.fanie.ktap.fake.MessagerPrint
+import dev.fanie.ktap.fake.MessagerState
+import dev.fanie.ktap.fake.annotationMirror
+import dev.fanie.ktap.fake.annotationValue
+import dev.fanie.ktap.fake.element
+import dev.fanie.ktap.fake.messager
+import dev.fanie.ktap.processing.error
+import dev.fanie.ktap.processing.note
+import dev.fanie.ktap.processing.other
+import dev.fanie.ktap.processing.warning
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
