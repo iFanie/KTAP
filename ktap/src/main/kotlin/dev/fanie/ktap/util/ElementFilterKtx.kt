@@ -1,4 +1,4 @@
-package dev.fanie.ktap
+package dev.fanie.ktap.util
 
 import javax.lang.model.element.Element
 import javax.lang.model.element.ExecutableElement
