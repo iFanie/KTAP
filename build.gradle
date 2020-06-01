@@ -5,8 +5,8 @@ buildscript {
     ext {
         ktap = [
                 GROUP_ID    : 'dev.fanie',
-                BUILD       : 4,
-                VERSION     : '0.0.4',
+                BUILD       : 5,
+                VERSION     : '0.0.5',
                 github      : [
                         ID : githubProperties['gpr.usr'],
                         KEY: githubProperties['gpr.key']
